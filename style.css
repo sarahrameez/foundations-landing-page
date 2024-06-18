@@ -9,15 +9,24 @@ body {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+    align-items: baseline;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 600;
 }
 
 ul {
     list-style-type: none;
     font-size: 18px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 a {
