@@ -33,3 +33,51 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.overview {
+    display: flex;
+    padding: 48px 64px;
+    justify-content: center;
+    gap: 32px;
+    background-color: #1F2937;
+}
+
+.overview-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    color: #F9FAF8;
+    gap: 24px;
+}
+
+.overview-heading {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.overview-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.overview-button {
+    padding-bottom: 16px;
+    margin-top: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 14px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    flex-shrink: 1;
+}
