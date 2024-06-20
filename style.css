@@ -36,9 +36,9 @@ a {
 
 .overview {
     display: flex;
-    padding: 48px 64px;
+    padding: 64px;
     justify-content: center;
-    gap: 32px;
+    gap: 64px;
     background-color: #1F2937;
 }
 
@@ -96,7 +96,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px 64px 64px 64px;
+    padding: 32px 64px 64px 64px;
 
 }
 
@@ -108,8 +108,9 @@ button:hover {
 
 .projects-list {
     display: flex;
+    justify-content: space-between;
     margin: 32px;
-    gap: 16px;
+    gap: 64px;
 }
 
 .project-item {
@@ -127,8 +128,8 @@ button:hover {
 }
 
 .logos img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
     border-style: solid;
     border-color: #3882F6;
@@ -136,15 +137,15 @@ button:hover {
 }
 
 .project-description {
-    max-width: 150px;
-    font-size: 14px;
+    max-width: 200px;
+    font-size: 16px;
     text-align: center;
     margin: 8px 0;
 }
 
 .quote {
     background-color: #E5E7EB;
-    padding: 64px;
+    padding: 64px 128px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,13 +162,11 @@ button:hover {
 }
 
 .quote-text {
-    max-width: 800px;
     font-size: 24px;
     color: #45474c;
 }
 
 .quote-author {
-    width: 800px;
     font-weight: bolder;
     text-align: end;
     padding: 16px;
@@ -188,7 +187,7 @@ button:hover {
     color: #F9FAF8;
     border-radius: 4px;
     padding: 32px 64px;
-    gap: 64px;
+    gap: 128px;
 }
 
 button.cta-button {
