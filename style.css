@@ -45,9 +45,10 @@ a {
 .overview-content {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 700px;
     color: #F9FAF8;
     gap: 24px;
+    align-self: stretch;
 }
 
 .overview-heading {
@@ -68,7 +69,7 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     padding: 8px 20px;
     border-style: solid;
@@ -85,8 +86,8 @@ button:hover {
 }
 
 .overview-img {
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 300px;
     object-fit: cover;
     object-position: 50% 0%;
     flex-shrink: 1;
@@ -107,8 +108,9 @@ button:hover {
 }
 
 .projects-list {
+    align-self: stretch;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 32px;
     gap: 64px;
 }
