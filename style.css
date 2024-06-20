@@ -69,9 +69,19 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 14px;
+    font-weight: 600;
     padding: 8px 20px;
-    border: none;
-    border-radius: 8px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 1px;
 }
 
 .overview-img {
@@ -136,6 +146,13 @@ button {
     background-color: #E5E7EB;
     padding: 64px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    padding: 32px 64px;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -144,7 +161,7 @@ button {
 }
 
 .quote-text {
-    width: 800px;
+    max-width: 800px;
     font-size: 24px;
     color: #45474c;
 }
@@ -178,6 +195,11 @@ button.cta-button {
     border-style: solid;
     border-color: #F9FAF8;
     border-width: 1px;
+}
+
+button.cta-button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 .message-box {
